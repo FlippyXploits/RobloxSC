@@ -815,7 +815,7 @@ local Themes = {
 	    Hover = Color3.fromRGB(255, 255, 80),
 	    HoverChange = 0.08
 	},
-		Mint = {
+	Mint = {
 	    Name = "Mint",
 	    Accent = Color3.fromRGB(100, 255, 200), -- Bright mint
 	    AcrylicMain = Color3.fromRGB(15, 30, 25), -- Dark green-blue for contrast
