@@ -775,6 +775,7 @@ local Themes = {
         HoverChange = 0.04
    
 	},
+	Lemon = {
 	    Name = "Lemon",
 	    Accent = Color3.fromRGB(255, 239, 100), -- Zesty lemonade yellow
 	    AcrylicMain = Color3.fromRGB(35, 35, 20), -- Muted dark background for contrast
