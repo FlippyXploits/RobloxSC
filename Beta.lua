@@ -71,8 +71,7 @@ local Themes = {
 		"Grape",
 		"Bloody",
 		"Hacker",
-		"Lemon",
-		"Mint"
+		"Lemon"
 	},
 	Dark = {
 		Name = "Dark",
@@ -814,43 +813,6 @@ local Themes = {
 	    SubText = Color3.fromRGB(170, 170, 100),
 	    Hover = Color3.fromRGB(255, 255, 80),
 	    HoverChange = 0.08
-	},
-	Mint = {
-	    Name = "Mint",
-	    Accent = Color3.fromRGB(100, 255, 200), -- Bright mint
-	    AcrylicMain = Color3.fromRGB(15, 30, 25), -- Dark green-blue for contrast
-	    AcrylicBorder = Color3.fromRGB(60, 120, 100), -- Muted teal
-	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 40, 30), Color3.fromRGB(25, 50, 35)),
-	    AcyclicNoise = 0.6,
-	    TitleBarLine = Color3.fromRGB(120, 255, 220),
-	    Tab = Color3.fromRGB(80, 200, 160),
-	    Element = Color3.fromRGB(100, 255, 200), -- Main mint
-	    ElementBorder = Color3.fromRGB(60, 120, 100),
-	    InElementBorder = Color3.fromRGB(90, 180, 150),
-	    ElementTransparency = 0.85,
-	    ToggleSlider = Color3.fromRGB(130, 255, 210),
-	    ToggleToggled = Color3.fromRGB(70, 170, 140),
-	    SliderRail = Color3.fromRGB(90, 210, 180),
-	    DropdownFrame = Color3.fromRGB(20, 40, 35),
-	    DropdownHolder = Color3.fromRGB(18, 36, 30),
-	    DropdownBorder = Color3.fromRGB(60, 120, 100),
-	    DropdownOption = Color3.fromRGB(100, 255, 200),
-	    Keybind = Color3.fromRGB(90, 235, 190),
-	    Input = Color3.fromRGB(100, 255, 200),
-	    InputFocused = Color3.fromRGB(10, 20, 15),
-	    InputIndicator = Color3.fromRGB(150, 255, 220),
-	    Dialog = Color3.fromRGB(15, 30, 25),
-	    DialogHolder = Color3.fromRGB(20, 40, 30),
-	    DialogHolderLine = Color3.fromRGB(60, 120, 100),
-	    DialogButton = Color3.fromRGB(100, 255, 200),
-	    DialogButtonBorder = Color3.fromRGB(60, 120, 100),
-	    DialogBorder = Color3.fromRGB(50, 100, 85),
-	    DialogInput = Color3.fromRGB(120, 255, 210),
-	    DialogInputLine = Color3.fromRGB(170, 255, 230),
-	    Text = Color3.fromRGB(255, 255, 255),
-	    SubText = Color3.fromRGB(170, 200, 190),
-	    Hover = Color3.fromRGB(150, 255, 220),
-	    HoverChange = 0.06
 	}
 }
 
