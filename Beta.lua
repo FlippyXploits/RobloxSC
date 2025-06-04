@@ -68,7 +68,8 @@ local Themes = {
 		"Cloud",
 		"Grape",
 		"Bloody",
-		"Hacker"
+		"Hacker",
+		"Lemon"
 	},
 	Dark = {
 		Name = "Dark",
@@ -772,8 +773,45 @@ local Themes = {
         SubText = Color3.fromRGB(131, 131, 131),
         Hover = Color3.fromRGB(0, 255, 0),
         HoverChange = 0.04
-    }
-
+   
+	},
+	Lemon = {
+	    Name = "Lemon",
+	    Accent = Color3.fromRGB(255, 223, 85), -- Lemon yellow
+	    AcrylicMain = Color3.fromRGB(255, 250, 230), -- Soft lemon cream background
+	    AcrylicBorder = Color3.fromRGB(230, 200, 120), -- Gentle yellow border
+	    AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 250, 230), Color3.fromRGB(255, 240, 200)),
+	    AcyclicNoise = 0.6,
+	    TitleBarLine = Color3.fromRGB(240, 210, 100),
+	    Tab = Color3.fromRGB(255, 236, 150),
+	    Element = Color3.fromRGB(255, 223, 120),
+	    ElementBorder = Color3.fromRGB(220, 190, 100),
+	    InElementBorder = Color3.fromRGB(240, 210, 120),
+	    ElementTransparency = 0.85,
+	    ToggleSlider = Color3.fromRGB(255, 220, 100),
+	    ToggleToggled = Color3.fromRGB(200, 170, 80),
+	    SliderRail = Color3.fromRGB(240, 200, 90),
+	    DropdownFrame = Color3.fromRGB(255, 245, 210),
+	    DropdownHolder = Color3.fromRGB(255, 250, 230),
+	    DropdownBorder = Color3.fromRGB(230, 200, 120),
+	    DropdownOption = Color3.fromRGB(255, 223, 130),
+	    Keybind = Color3.fromRGB(250, 220, 100),
+	    Input = Color3.fromRGB(255, 235, 180),
+	    InputFocused = Color3.fromRGB(255, 255, 255),
+	    InputIndicator = Color3.fromRGB(255, 240, 160),
+	    Dialog = Color3.fromRGB(255, 250, 235),
+	    DialogHolder = Color3.fromRGB(255, 240, 200),
+	    DialogHolderLine = Color3.fromRGB(230, 200, 120),
+	    DialogButton = Color3.fromRGB(255, 236, 150),
+	    DialogButtonBorder = Color3.fromRGB(220, 190, 100),
+	    DialogBorder = Color3.fromRGB(230, 200, 120),
+	    DialogInput = Color3.fromRGB(255, 240, 160),
+	    DialogInputLine = Color3.fromRGB(255, 223, 85),
+	    Text = Color3.fromRGB(255, 255, 255),
+	    SubText = Color3.fromRGB(140, 140, 140),
+	    Hover = Color3.fromRGB(255, 240, 180),
+	    HoverChange = 0.05
+	}
 }
 
 local Library = {
